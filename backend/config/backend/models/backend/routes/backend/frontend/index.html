@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rentity</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Welcome to Rentity</h1>
+    <div>
+        <h2>Add Property</h2>
+        <form id="propertyForm">
+            <input type="text" id="title" placeholder="Title" required>
+            <input type="text" id="description" placeholder="Description" required>
+            <input type="text" id="address" placeholder="Address" required>
+            <input type="number" id="price" placeholder="Price" required>
+            <input type="text" id="owner" placeholder="Owner" required>
+            <button type="submit">Add Property</button>
+        </form>
+    </div>
+    <div>
+        <h2>Available Properties</h2>
+        <ul id="propertyList"></ul>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
